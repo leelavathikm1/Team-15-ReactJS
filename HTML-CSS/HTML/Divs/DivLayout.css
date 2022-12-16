@@ -1,0 +1,42 @@
+div#container {
+    border: 2px solid darkgray;
+}
+.header {
+    background-color: black;
+    height: 50px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.parent {
+    overflow: auto;
+}
+.child1 {
+    width: 250px;
+    background: lightgray;
+    margin-left: 10px;
+    float: left;
+    height: 165px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    line-height: 1.6;
+}
+.child2 {
+    width: 555px;
+    float: right;
+    margin-right: 10px;
+}
+
+
+div#footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    margin: 10px;
+}
