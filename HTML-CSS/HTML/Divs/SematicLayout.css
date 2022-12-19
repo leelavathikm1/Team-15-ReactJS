@@ -1,0 +1,50 @@
+.container {
+    border: 2px solid;
+}
+header {
+    border: 2px solid;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    border: 2px solid;
+    margin: 10px;
+    /* text-align: center;
+    padding: 20px; */
+}
+li {
+    display: inline;
+    margin-right: 69px;
+}
+.parent {
+    margin: 10px;
+    overflow: auto;
+}
+div#sectionS {
+    width: 500px;
+    float: left;
+}
+section {
+    border: 2px solid;
+    height: 100px;
+    text-align: center;
+}
+article {
+    border: 2px solid;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+aside {
+    border: 2px solid;
+    width: 310px;
+    float: right;
+    height: 214px;
+    text-align: center;
+}footer {
+    border: 2px solid;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+}
