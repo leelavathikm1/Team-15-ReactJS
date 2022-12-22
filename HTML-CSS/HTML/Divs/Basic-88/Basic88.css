@@ -44,3 +44,43 @@ div#imageSection {
 #imageSection img {
     width: 750px;
 }
+div#parentSection {
+    background: #3e3a3a;
+}
+div#subparenSection {
+    width: 750px;
+    margin: auto;
+    overflow: auto;
+}
+section {
+    width: 170px;
+    float: left;
+    font-size: 12px;
+    margin-right: 16px;
+}
+section h4 {
+    font-style: italic;
+    margin-top: 19px;
+}
+figure {
+    width: 32px;
+    float: left;
+    padding: 0;
+    margin: 17px 7px 0 0;
+}
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+section ul li {
+    line-height: 2;
+    border-bottom: 1px dotted gray;
+    color: orange;
+    cursor: pointer;
+}
+section#lastSection {
+    width: 170px;
+    float: right;
+    font-size: 12px;
+    margin-right: 0;
+}
