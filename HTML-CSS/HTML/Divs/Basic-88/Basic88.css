@@ -9,7 +9,7 @@ div#headerSection {
 }
 header {
     margin: 0 auto;
-    width: 750px;
+    width: 870px;
     overflow: auto;
     height: 100px;
 }
@@ -18,11 +18,11 @@ div#basic88 {
     float: left;
     margin-top: 20px;
 }
-h1 {
+#basic88 h1 {
     padding: 0;
     margin: 0;
 }
-h2 {
+#basic88 h2 {
     padding: 0;
     margin: 0;
     font-size: 13px;
@@ -38,11 +38,11 @@ nav ul li {
     margin-right: 25px;
 }
 div#imageSection {
-    width: 750px;
+    width: 870px;
     margin: auto;
 }
 #imageSection img {
-    width: 750px;
+    width: 870px;
 }
 div#parentSection {
     background: #3e3a3a;
@@ -83,4 +83,38 @@ section#lastSection {
     float: right;
     font-size: 12px;
     margin-right: 0;
+}
+div#maheshInfo {
+    width: 900px;
+    margin: auto;
+    overflow: auto;
+}
+article {
+    width: 407px;
+    float: left;
+}
+article h2 {
+    font-size: 25px;
+}
+article p {
+    font-size: 12px;
+    line-height: 1.7;
+}
+article p a {
+    color: orange;
+    text-decoration: none;
+}
+#articleA {
+    color: orange;
+    float: right;
+    font-size: 13px;
+    text-decoration: none;
+}
+#maheshInfo figure {
+    width: 453px;
+    float: right;
+}
+figure img {
+    border: 1px solid gray;
+    padding: 4px;
 }
