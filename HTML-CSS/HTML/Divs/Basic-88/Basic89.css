@@ -1,0 +1,72 @@
+.headersedtion {
+    background: gray;
+    height: 100px;
+}
+header {
+    background: blue;
+    height: 60px;
+    width: 950px;
+    margin: auto;
+}
+.content {
+    width: 950px;
+    margin: auto;
+    overflow: auto;
+}
+section {
+    width: 620px;
+    float: left;
+}
+div#figure1 {
+    overflow: auto;
+}
+figure {
+    width: 185px;
+    float: left;
+    margin: 15px 13px 0 0;
+}
+#figure1 figure img {
+    width: 180px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+figcaption {
+    /* float: right; */
+}
+h3 {
+    font-size: 14px;
+    color: gray;
+}
+p {
+    font-size: 13px;
+    line-height: 1.6em;
+}
+p#ancharPara {
+    float: right;
+}
+#ancharPara a {
+    color: orange;
+    text-decoration: none;
+}
+div#figure2 {
+    overflow: auto;
+}
+#figure2 figure img {
+    width: 180px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+aside {
+    width: 320px;
+    float: right;
+    margin-left: 10px;
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+aside ul li {
+    line-height: 1.6em;
+    border-bottom: 1px solid lightgray;
+    font-size: 13px;
+}
