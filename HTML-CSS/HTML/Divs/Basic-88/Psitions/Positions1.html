@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 600px;
+        margin: auto;
+        border: 2px solid;
+        height: 800px;
+      }
+      #div1 {
+        border: 2px solid;
+        position: static;
+        height: 50px;
+        top: 20px;
+      }
+      #div2 {
+        border: 2px solid;
+        position: relative;
+        height: 50px;
+        left: 20px;
+      }
+      #div3 {
+        border: 2px solid;
+        position: absolute;
+        height: 50px;
+        left: 20px;
+        width: 200px;
+        top: 100px;
+      }
+      #div4 {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 400px;
+        border: 3px solid blue;
+      }
+      #div5 {
+        position: sticky;
+        border: 2px solid red;
+        top: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="div1">Static</div>
+      <div id="div2">relative</div>
+      <div id="div3">absolute</div>
+      <div id="div4">fixed</div>
+      <div id="div5">sticky</div>
+    </div>
+  </body>
+</html>
